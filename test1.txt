@@ -1,0 +1,44 @@
+import turtle
+
+turtle.shape("turtle")
+
+def right():
+    turtle.setheading(0)
+    turtle.forward(50)
+    turtle.stamp()
+   
+    
+def left():
+    turtle.setheading(180)
+    turtle.forward(50)
+    turtle.stamp()
+                    
+   
+def up():
+    turtle.setheading(90)
+    turtle.forward(50)
+    turtle.stamp()
+    
+    
+def down():
+    turtle.setheading(-90)
+    turtle.forward(50)
+    turtle.stamp()
+    
+    
+def re():
+    turtle.reset()
+    turtle.stampe()
+    
+
+turtle.listen()
+
+turtle.onkeypress(right,"d")
+turtle.onkeypress(left,"a")
+turtle.onkeypress(up,"w")
+turtle.onkeypress(down,"s")
+turtle.onkeypress(re,"Escape")
+
+
+
+
