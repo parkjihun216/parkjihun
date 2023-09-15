@@ -33,11 +33,11 @@ def re():
 
 turtle.listen()
 
-turtle.onkeypress(right,"d")
-turtle.onkeypress(left,"a")
-turtle.onkeypress(up,"w")
-turtle.onkeypress(down,"s")
-turtle.onkeypress(re,"Escape")
+turtle.onkey(right,"d")
+turtle.onkey(left,"a")
+turtle.onkey(up,"w")
+turtle.onkey(down,"s")
+turtle.onkey(re,"Escape")
 
 
 
